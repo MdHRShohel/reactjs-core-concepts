@@ -2,11 +2,17 @@ import './App.css';
 // import logo from './logo.svg';
 
 function App() {
+  const nayoks = ['Razzak', 'Jasim', 'Alomgir', 'Salman', 'Bappi', 'Shuvo'];
+  const nayikas = ['Moushumi', 'Shabana', 'Kopila', 'Bobita', 'Cheka', 'Shabnur'];
   return (
     <div className="App">
-      <Person name="Rubel" nayika="Mousumi"></Person>
-      <Person name="BappaRaz" nayika="Cheka"></Person>
-      <Person name="Kuber" nayika="Kopila" ></Person>
+      {
+        nayoks.map(nayok => <Person name={nayok}></Person>)
+       
+      }
+      {/* <Person name={nayoks[0]} nayika="Mousumi"></Person>
+      <Person name={nayoks[1]} nayika="Cheka"></Person>
+      <Person name={nayoks[2]} nayika="Kopila" ></Person> */}
 
       <h4>Yay.....</h4>
 
