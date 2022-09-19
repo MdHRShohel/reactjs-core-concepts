@@ -6,6 +6,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>JSX</h1>
+        <div className="container">
+          <h3>Hello Dude React. How are you?</h3>
+        </div>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
